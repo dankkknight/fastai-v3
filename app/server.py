@@ -8,8 +8,10 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+#https://www.dropbox.com/s/hqau8umef9lpgxk/export.pkl?dl=0
+#export_file_url = 'https://drive.google.com/file/d/1-nFvE5pDVVwkbdUBvIhx5ADz85J6Fatq/view?usp=sharing'
+export_file_url = 'https://www.dropbox.com/s/hqau8umef9lpgxk/export.pkl?dl=0'
 
-export_file_url = 'https://drive.google.com/file/d/1-nFvE5pDVVwkbdUBvIhx5ADz85J6Fatq/view?usp=sharing'
 export_file_name = 'export.pkl'
 
 classes = ['biriyani','butternaan','dosa','idly','meduvadai']
